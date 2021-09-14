@@ -124,12 +124,50 @@ body{
     justify-content: flex-end;
     text-align: right;
 }
+.header__info{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    width: 226px;
+    height: 61px;
+    border-color: #F7992B;
+    border: 2px solid;
+    text-decoration: none;
+    border-width: 1px;
+    padding: 18px 0px 18px 0px;
+    text-align: center;
+}
+
+.link a{
+    text-decoration: none;
+    font-family: "Oswald", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.714em;
+    letter-spacing: 8.4px;
+}
+
+.header__link{
+    background-color:#F7992B;
+    border-color: #F7992B;
+}
+
+.header__link a{
+    color: #ffffff;
+    
+}
 
 
 /* --------------ABOUT----------------------- */
 
 
-.about__description{
+.description{
     display: flex;
     justify-content: space-between;
     padding: 73px 40px 49px 53px;
@@ -163,7 +201,7 @@ body{
     column-gap: 1%;
 }
 
-.about__wrapper{
+.wrapper{
     margin: 0 auto;
     width: 80%;
     max-width: 1280px;
@@ -186,4 +224,72 @@ body{
 
 img{
     width: 100%;
+}
+
+/* ------------------PORTFOLIO------------------ */
+
+.gallery__item{
+    width: 599px;
+    height: 464px;
+}
+.gallery__item img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio{
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+.portfolio__gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding-right: 0.9%;
+    padding-left: 0.8%;
+    column-gap: 1.1%;
+    row-gap: 20px;
+    padding-bottom: 3%;
+}
+
+.portfolio__link a{
+    color: #F7992B;
+    text-decoration: none;
+}
+.portfolio__link{
+    font-family: "Oswald", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.714em;
+    letter-spacing: 8.4px;
+    fill: #F7992B;
+    color: #F7992B;
+    background-color: rgba(0,0,0,0);
+    border-radius: 0px 0px 0px 0px;
+    padding: 18px 0px 18px 0px;
+    text-align: center;
+    /* margin-top: 10px; */
+    /* padding-top: 20px; */
+    margin: 0 auto;
+}
+
+/* ------------------------------------------------------------- */
+
+.partners{
+    padding: 72px 25px;
+}
+
+.partners__wrapper{
+    display: flex;
+}
+
+.partners__logo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 70px;
+    row-gap: 40px;
 }
