@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), local('Montserrat-Regular'), url('../fonts/montserrat.woff2') format('woff2'), url('../fonts/montserrat.woff') format('woff'), url('../fonts/montserrat.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: local('Oswald'), local('Oswald-Light'), url('../fonts/Oswald-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: light;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: local('Oswald'), local('Oswald-Bold'), url('../fonts/Oswald-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: bold;
+}
